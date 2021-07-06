@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/multi-env/osgiconfig">
+        <exclude pattern="/apps/multi-env/osgiconfig/config.dev"/>
+        <exclude pattern="/apps/multi-env/osgiconfig/config.author.dev"/>
+        <exclude pattern="/apps/multi-env/osgiconfig/config.publish.dev"/>
+    </filter>
+</workspaceFilter>

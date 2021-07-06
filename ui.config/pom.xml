@@ -31,47 +31,12 @@
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
     <artifactId>multi-env.ui.config</artifactId>
-    <packaging>content-package</packaging>
+    <packaging>pom</packaging>
     <name>Multiple DEV environments - UI config</name>
-    <description>UI config package for Multiple DEV environments</description>
-
-    <!-- ====================================================================== -->
-    <!-- B U I L D   D E F I N I T I O N                                        -->
-    <!-- ====================================================================== -->
-    <build>
-        <sourceDirectory>src/main/content/jcr_root</sourceDirectory>
-
-        <plugins>
-            <plugin>
-                <groupId>org.apache.jackrabbit</groupId>
-                <artifactId>filevault-package-maven-plugin</artifactId>
-                <configuration>
-                    <properties>
-                        <cloudManagerTarget>none</cloudManagerTarget>
-                    </properties>
-                    <packageType>container</packageType>
-                    <showImportPackageReport>false</showImportPackageReport>
-                    <repositoryStructurePackages>
-                        <repositoryStructurePackage>
-                            <groupId>org.example</groupId>
-                            <artifactId>multi-env.ui.apps.structure</artifactId>
-                        </repositoryStructurePackage>
-                    </repositoryStructurePackages>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>com.day.jcr.vault</groupId>
-                <artifactId>content-package-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.example</groupId>
-            <artifactId>multi-env.ui.apps.structure</artifactId>
-            <version>${project.version}</version>
-            <type>zip</type>
-        </dependency>
-    </dependencies>
+    <description>UI config aggregator for Multiple DEV environments</description>
+	<modules>
+		<module>config.dev1</module>
+		<module>config.dev2</module>
+		<module>config.all</module>
+	</modules>
 </project>

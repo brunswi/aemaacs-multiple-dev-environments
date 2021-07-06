@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/multi-env" mode="merge"/>
+    <filter root="/content/multi-env" mode="merge"/>
+    <filter root="/content/dam/multi-env/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/multi-env" mode="merge"/>
+</workspaceFilter>

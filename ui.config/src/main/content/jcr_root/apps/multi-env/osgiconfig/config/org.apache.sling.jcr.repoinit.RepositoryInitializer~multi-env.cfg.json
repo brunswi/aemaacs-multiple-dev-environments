@@ -1,0 +1,10 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/multi-env",
+        "create path (nt:unstructured) /content/dam/multi-env/jcr:content",
+        "set properties on /content/dam/multi-env/jcr:content",
+        "set cq:conf{String} to /conf/multi-env",
+        "set jcr:title{String} to \"Multiple DEV environments\"",
+        "end"
+    ]
+}

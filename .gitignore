@@ -1,0 +1,163 @@
+######################
+# Intellij
+######################
+# User-specific stuff:
+idea/.idea
+idea/.idea/**
+.idea/**
+*.iml
+!idea/
+idea/*
+!idea/settings/
+
+# Allow some configs
+!.idea/runConfigurations
+!.idea/runConfigurations/**
+!.idea/inspectionProfiles
+!.idea/inspectionProfiles/**
+!.idea/scopes
+!.idea/scopes/**
+!.idea/codeStyleSettings.xml
+!.idea/misc.xml
+!.idea/eclipseCodeFormatter.xml
+!.idea/dictionaries
+!.idea/dictionaries/dict.xml
+!.idea/compiler.xml
+!.idea/encodings.xml
+
+# others:
+atlassian-ide-plugin.xml
+*.iws
+*.ipr
+*.ids
+*.orig
+/out/
+out
+test-output
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+sftp-config.json
+.cache
+.sublime-grunt.cache
+
+######################
+# Eclipse
+######################
+.project
+.metadata
+/bin/**
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/**
+.settings/
+.loadpath
+.ruleset
+maven-eclipse.xml
+RemoteSystemsTempFiles
+reports
+.checkstyle
+.springBeans
+.eclipse-pmd
+.pmd
+.externalToolBuilders/**
+*.launch
+.cproject
+.buildpath
+
+######################
+# Maven
+######################
+/log/**
+/target/**
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+######################
+# Gradle
+######################
+.gradle/**
+.gradle
+
+######################
+# Java
+######################
+*.class
+.mtj.tmp/
+hs_err_pid*
+
+######################
+# Package Files
+######################
+*.war
+*.ear
+*.db
+
+######################
+# Windows
+######################
+Thumbs.db
+Desktop.ini
+
+######################
+# Mac OSX
+######################
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+.svn
+ehthumbs.db
+._*
+.Spotlight-V100
+.Trashes
+$RECYCLE.BIN/
+*.lnk
+*~
+.directory
+
+######################
+# Temporary files
+######################
+*.tmp*
+/tmp/**
+/tmp/**/*
+
+######################
+# Directories
+######################
+/build/**
+/deploy/**
+
+######################
+# Logs
+######################
+*.log
+logs/
+
+######################
+# Git
+######################
+git.properties
+!.gitkeep
+*.*~
+.merge_file*
+
+######################
+# Tools
+######################
+!crxdeploy.jar
+
+######################
+### IntelliJ ###
+######################
+.idea/

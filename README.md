@@ -1,4 +1,4 @@
-# Sample AEM project template
+# AEMaaCS: OSGi configurations for multiple dev environments
 
 Deploy different OSGi configuration modules to AEMaaCS dev environments based on a CM pipeline variable.
 
